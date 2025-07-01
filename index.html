@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Isabella's Deco</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #fffaf9;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header__logo">Isabella's Deco</div>
+    <nav class="header__nav nav">
+      <ul class="nav__list">
+        <li class="nav__item nav__item--active">Inicio</li>
+        <li class="nav__item">Galería</li>
+        <li class="nav__item">Contacto</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <article class="main-content__article article">
+      <h1 class="article__title">Decoración Exclusiva para Tus Momentos Especiales</h1>
+      <p class="article__text">En Isabella's Deco nos especializamos en transformar cenas privadas, celebraciones íntimas y eventos especiales en experiencias inolvidables.</p>
+      <img src="assets/img/elegante.jpeg" alt="Decoración elegante" class="article__image">
+    </article>
+
+    <section class="gallery">
+      <h2 class="gallery__title">Galería de Eventos</h2>
+      <div class="gallery__grid">
+        <div class="gallery__card">
+          <img src="assets/img/boda.jpg" class="gallery__image" alt="Evento 1">
+          <p class="gallery__caption">Boda Romántica</p>
+        </div>
+        <div class="gallery__card">
+          <img src="assets/img/cena.jpg" class="gallery__image" alt="Evento 2">
+          <p class="gallery__caption">Cena Privada</p>
+        </div>
+        <div class="gallery__card">
+          <img src="assets/img/cumpleanos.png" class="gallery__image" alt="Evento 3">
+          <p class="gallery__caption">Cumpleaños Elegante</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h2 class="contact-form__title">Contáctanos</h2>
+      <form class="contact-form__form">
+        <input class="contact-form__input" type="text" placeholder="Nombre completo" required>
+        <input class="contact-form__input" type="email" placeholder="Correo electrónico" required>
+        <textarea class="contact-form__textarea" placeholder="Tu mensaje" required></textarea>
+        <button class="contact-form__button" type="submit">Enviar Mensaje</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__text">&copy; 2025 Isabella's Deco. Todos los derechos reservados.</p>
+    <div class="footer__socials">
+      <a href="#" class="footer__link">Instagram</a>
+      <a href="#" class="footer__link">Facebook</a>
+    </div>
+  </footer>
+</body>
+</html>
